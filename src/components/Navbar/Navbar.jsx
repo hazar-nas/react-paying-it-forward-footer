@@ -111,7 +111,7 @@ function Navbar({ isLogin }) {
                     <div className="dropdown inline-block relative">
                       <button
                         type="button"
-                        className="text-white hover:bg-amber-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium py-2 rounded inline-flex items-center"
+                        className="text-white hover:bg-amber-500 hover:text-white px-3 text-sm font-medium py-2 rounded inline-flex items-center"
                       >
                         <span className="mr-1">Donation For</span>
                         <svg
@@ -122,7 +122,7 @@ function Navbar({ isLogin }) {
                           <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{' '}
                         </svg>
                       </button>
-                      <ul className="dropdown-menu absolute z-40 hidden text-white pt-1 flex flex-row">
+                      <ul className="dropdown-menu absolute z-40 text-white pt-1 flex flex-row">
                         <li>
                           <Link
                             className="bg-yellow-500 hover:bg-yellow-600 py-2 px-4 block whitespace-no-wrap"
@@ -176,7 +176,7 @@ function Navbar({ isLogin }) {
                     <div className="dropdown inline-block relative">
                       <button
                         type="button"
-                        className="text-white hover:bg-amber-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium py-2 rounded inline-flex items-center"
+                        className="text-white hover:bg-amber-500 hover:text-white px-3  text-sm font-medium py-2 rounded inline-flex items-center"
                       >
                         <span className="mr-1">Request For</span>
                         <svg
@@ -187,7 +187,7 @@ function Navbar({ isLogin }) {
                           <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{' '}
                         </svg>
                       </button>
-                      <ul className="dropdown-menu absolute z-40 hidden text-white pt-1 flex flex-row">
+                      <ul className="dropdown-menu absolute z-40  text-white pt-1 flex flex-row">
                         <li>
                           <Link
                             className="bg-yellow-500 hover:bg-yellow-600 py-2 px-4 block whitespace-no-wrap"
@@ -294,11 +294,11 @@ function Navbar({ isLogin }) {
                   <div className="dropdown inline-block relative">
                     <button
                       type="button"
-                      className="text-white hover:bg-amber-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium rounded inline-flex items-center"
+                      className="text-white hover:bg-amber-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium  inline-flex items-center"
                     >
                       <img src={iconProfile} alt="user-icon" />
                     </button>
-                    <ul className="dropdown-menu absolute z-40 hidden text-white flex flex-row">
+                    <ul className="dropdown-menu absolute z-40  text-white flex flex-row">
                       <li>
                         <Link
                           className="bg-yellow-500 hover:bg-yellow-600 py-2 px-4 block whitespace-no-wrap"
